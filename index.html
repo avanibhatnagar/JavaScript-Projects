@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>JS Drum</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <div class="keys">
@@ -53,19 +53,20 @@
     </div>
   </div>
 
-  <audio data-key="65" src=""></audio>
-  <audio data-key="83"></audio>
-  <audio data-key="68"></audio>
-  <audio data-key="70"></audio>
-  <audio data-key="71"></audio>
-  <audio data-key="72"></audio>
-  <audio data-key="74"></audio>
-  <audio data-key="75"></audio>
-  <audio data-key="76"></audio>
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
 
-<script>
-
-</script>
+  <!-- Now we add to event on the Window, and the event we are listening to
+   is keydown and which gives an event.
+  We listen for keydown event and then we are concered with keycode then see if there is an audio element that has that key-->
+<script type="text/javascript" src="assets/script.js"></script>
 
 </body>
 </html>

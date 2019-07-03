@@ -31,6 +31,11 @@
     p=document.createElement('p');
     words.appendChild(p);
   }
+
+  if(transcript.includes('get the weather')){
+    console.log('Getting the weather'); //can be hooked to an external weather API to get the API... pretty cool! 
+  }
+
   console.log(transcript);
   });
   recognition.addEventListener('end', recognition.start);
